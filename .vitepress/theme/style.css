@@ -94,14 +94,14 @@
   --vp-home-hero-name-color: transparent;
   --vp-home-hero-name-background: -webkit-linear-gradient(
     120deg,
-    #bd34fe 30%,
-    #41d1ff
+    #60badd 30%,
+    #3689aa
   );
 
   --vp-home-hero-image-background-image: linear-gradient(
     -45deg,
-    #bd34fe 50%,
-    #47caff 50%
+    #60badd 50%,
+    #3689aa 50%
   );
   --vp-home-hero-image-filter: blur(44px);
 }
@@ -137,7 +137,9 @@
   --docsearch-primary-color: var(--vp-c-brand-1) !important;
 }
 
-.VPNavBar {
-  display: none;
-}
+.VPNavBar {display: none;}
 .VPNav.no-sidebar {display: none;}
+
+.VPHero {
+  padding: calc(var(--vp-nav-height) + var(--vp-layout-top-height, 0px) + 10px) 48px 64px !important; 
+}
